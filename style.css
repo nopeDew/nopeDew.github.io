@@ -4,10 +4,10 @@ html {
   heigh: 100%;
   font-size: 64px;
 }
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Inter&display=swap');
-* {
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap')'
+{
   color: white;
-  font-family: Inter, sans;
+  font-family: 'Silkscreen', sans-serif;
 }
 @keyframes moveright {
   0% {transform:translateX(0);}
