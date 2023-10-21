@@ -1,7 +1,8 @@
 html {
   background-color: black;
-  width: 100%
-  heigh: 100%
+  width: 100%;
+  heigh: 100%;
+  font-size: 36px;
 }
 @keyframes moveright {
   0% {transform:translateX(0);}
