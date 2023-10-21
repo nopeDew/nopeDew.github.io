@@ -1,3 +1,4 @@
 # defaultpilot.github.io
-my website
-wut else is there to say?
+<strong>my website</strong>
+<hr>
+<strong>wut else is there to say?</strong>
