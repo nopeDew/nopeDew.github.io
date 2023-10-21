@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+* {
+  color: white;
+  font-family: 'Silkscreen', sans-serif;
+}
 html {
   background-color: black;
   width: 100%;
   heigh: 100%;
   font-size: 64px;
-  font-family: 'Silkscreen', sans;
 }
 
 @keyframes moveright {
