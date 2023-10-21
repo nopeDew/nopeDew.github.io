@@ -19,19 +19,19 @@ html {
   100% {transform:translateX(49vw);}
 }
 .object1 {
-    position: absolute;
-    top: 50vw;
-    right: 100vw;
-   animation-name: moveleft;
-   animation-duration: 2.5s;
-   animation-fill-mode: forwards;
-}
-.object2 {
   position: absolute;
   top: 50vw;
-  left: 100vw;
-  animation-name: moveright;
+  right: 100vw;
+  animation-name: moveleft;
   animation-duration: 2.5s;
   animation-fill-mode: forwards;
+}
+.object2 {
+   position: absolute;
+   top: 50vw;
+   left: 100vw;
+   animation-name: moveright;
+   animation-duration: 2.5s;
+   animation-fill-mode: forwards;
   
 }
