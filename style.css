@@ -1,1 +1,30 @@
-
+html {
+  background-color: black;
+  width: 100%
+  heigh: 100%
+}
+@keyframes moveright {
+  0% {transform:translateX(0);}
+  100% {transform:translateX(-49pw);}
+}
+@keyframes moveleft {
+  0% {transform:translateX(0);}
+  100% {transform:translateX(49pw);}
+}
+.object1 {
+    position: absolute;
+    top: 50vw;
+    left: 100vw;
+   animation-name: moveright;
+   animation-duration: 2.5s;
+   animation-fill-mode: forwards;
+}
+.object2 {
+  position: absolute;
+  top: 50vw;
+  right: 100vw;
+  animation-name: moverleft;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+  
+}
