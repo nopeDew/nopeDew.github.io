@@ -20,7 +20,7 @@ html {
 }
 .object1 {
   position: absolute;
-  top: 45vh;
+  top: 40vh;
   right: 100vw;
   animation-name: moveleft;
   animation-duration: 1.5s;
@@ -28,7 +28,7 @@ html {
 }
 .object2 {
    position: absolute;
-   top: 45vh;
+   top: 40vh;
    left: 100vw;
    animation-name: moveright;
    animation-duration: 1.5s;
