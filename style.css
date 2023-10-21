@@ -20,18 +20,18 @@ html {
 }
 .object1 {
   position: absolute;
-  top: 60vh;
+  top: 70vh;
   right: 100vw;
   animation-name: moveleft;
-  animation-duration: 2.5s;
+  animation-duration: 1.5s;
   animation-fill-mode: forwards;
 }
 .object2 {
    position: absolute;
-   top: 60vh;
+   top: 70vh;
    left: 100vw;
    animation-name: moveright;
-   animation-duration: 2.5s;
+   animation-duration: 1.5s;
    animation-fill-mode: forwards;
   
 }
