@@ -12,11 +12,11 @@ html {
 
 @keyframes moveright {
   0% {transform:translateX(0);}
-  100% {transform:translateX(-40vw);}
+  100% {transform:translateX(-55vw);}
 }
 @keyframes moveleft {
   0% {transform:translateX(0);}
-  100% {transform:translateX(60vw);}
+  100% {transform:translateX(45vw);}
 }
 .object1 {
   position: absolute;
