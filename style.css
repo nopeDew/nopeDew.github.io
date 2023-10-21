@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 html {
   background-color: black;
   width: 100%;
   heigh: 100%;
   font-size: 64px;
-  @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+  font-family: 'Silkscreen', sans;
 }
 
 @keyframes moveright {
