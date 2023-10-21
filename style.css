@@ -12,17 +12,17 @@ html {
 
 @keyframes moveright {
   0% {transform:translateX(0);}
-  100% {transform:translateX(49vw);}
+  100% {transform:translateX(-49vw);}
 }
 @keyframes moveleft {
   0% {transform:translateX(0);}
-  100% {transform:translateX(-49vw);}
+  100% {transform:translateX(49vw);}
 }
 .object1 {
     position: absolute;
     top: 50vw;
     left: 100vw;
-   animation-name: moveleft;
+   animation-name: moveright;
    animation-duration: 2.5s;
    animation-fill-mode: forwards;
 }
@@ -30,7 +30,7 @@ html {
   position: absolute;
   top: 50vw;
   right: 100vw;
-  animation-name: moveright;
+  animation-name: moverleft;
   animation-duration: 2.5s;
   animation-fill-mode: forwards;
   
