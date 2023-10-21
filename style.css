@@ -3,7 +3,7 @@ html {
   width: 100%;
   heigh: 100%;
   font-size: 64px;
-  font-family: 'Silkscreen', sans-serif;
+  @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 }
 
 @keyframes moveright {
