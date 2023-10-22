@@ -20,7 +20,7 @@ html {
 }
 @keyframes specialmoveright {
   0% {transform:translateX(0);}
-  100% {transform:translateX(-51vw);}
+  100% {transform:translateX(-52vw);}
 }
 .object1 {
   position: absolute;
