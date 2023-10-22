@@ -18,6 +18,10 @@ html {
   0% {transform:translateX(0);}
   100% {transform:translateX(50vw);}
 }
+@keyframes specialmoveright {
+  0% {transform:translateX(0);}
+  100% {transform:translateX(-51vw);}
+}
 .object1 {
   position: absolute;
   top: 35vh;
@@ -35,3 +39,13 @@ html {
    animation-fill-mode: forwards;
   
 }
+.object3 {
+   position: absolute;
+   top: 35vh;
+   left: 100vw;
+   animation-name: specialmoveright;
+   animation-duration: 1.5s;
+   animation-fill-mode: forwards;
+  
+}
+
