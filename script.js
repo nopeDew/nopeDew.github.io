@@ -4,7 +4,6 @@ function overlap (element1, element2) {
     var eva = element1.getBoundingClientRect();
     var evangelion = element2.getBoudingClientRect();
     var overlap = !(eva.right < evangelion.left || eva.left > evangelion.right || eva.bottom < evangelion.top || eva.top > evangelion.bottom);
-    }
     if overlap == false {
         var html = document.getElementById("html");
         html.style.backgroundImage = "url('https://giffiles.alphacoders.com/113/113020.gif')";
