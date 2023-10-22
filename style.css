@@ -20,7 +20,11 @@ html {
 }
 @keyframes specialmoveleft {
   0% {transform:translateX(0);}
-  100% {transform:translateX(52vw);}
+  100% {transform:translateX(100vw);}
+}
+@keyframes specialmoveright {
+  0% {transform:translateX(0);}
+  100% {transform:translateX(-100vw);}
 }
 .object1 {
   position: absolute;
@@ -41,11 +45,20 @@ html {
 }
 .object3 {
    position: absolute;
-   top: 35vh;
+   top: 40vh;
    right: 100vw;
    animation-name: specialmoveleft;
    animation-duration: 1.5s;
    animation-fill-mode: forwards;
   
 }
-
+.object4 {
+   position: absolute;
+   top: 40vh;
+   left: 100vw;
+   animation-name: specialmoveright;
+   animation-duration: 1.5s;
+   animation-fill-mode: forwards;
+  
+}
+  
