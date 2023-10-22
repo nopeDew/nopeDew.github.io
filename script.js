@@ -6,8 +6,8 @@ function overlap (element1, element2) {
     var overlap = !(eva.right < evangelion.left || eva.left > evangelion.right || eva.bottom < evangelion.top || eva.top > evangelion.bottom);
     }
     if overlap == false {
-        var background = document.getElementById("html");
-        //html.style.background-image
+        var html = document.getElementById("html");
+        html.style.backgroundImage = "url('https://giffiles.alphacoders.com/113/113020.gif')";
     }
       
 
