@@ -3,11 +3,11 @@ var object4 = document.getElementById("object4")[0];
 function overlap (element1, element2) {
     var eva = element1.getBoundingClientRect();
     var evangelion = element2.getBoudingClientRect();
-    var overlap = !(eva.right < evangelion.left || 
-                eva.left > evangelion.right || 
-                eva.bottom < evangelion.top || 
-                eva.top > evangelion.bottom)
+    var overlap = !(eva.right < evangelion.left || eva.left > evangelion.right || eva.bottom < evangelion.top || eva.top > evangelion.bottom);
     }
-    if overlap == false {    }
+    if overlap == false {
+        var background = document.getElementById("html");
+        //html.style.background-image
+    }
       
 
