@@ -8,5 +8,6 @@ function overlap (element1, element2) {
         var html = document.getElementById("html");
         html.style.backgroundImage = "url('https://giffiles.alphacoders.com/113/113020.gif')";
     }
+}
 setTimeout(overlap, 1500, object3, object4);
 
