@@ -24,7 +24,7 @@ html {
   background-image: url("");
   background-size: cover;
   background-clip: text;
-  color: transparent;
+  color: white;
   top: 35vh;
   right: 100vw;
   animation-name: moveleft;
@@ -35,7 +35,7 @@ html {
    background-image: url("");
    background-size: cover;
    background-clip: text;
-   color: transparent;
+   color: white;
    position: absolute;
    top: 35vh;
    left: 100vw;
