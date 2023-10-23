@@ -21,7 +21,7 @@ html {
 
 }
 .object1 {
-  background-image:;
+  background-image: url("");
   background-size: cover;
   background-clip: text;
   color: transparent;
@@ -32,7 +32,7 @@ html {
   animation-fill-mode: forwards;
 }
 .object2 {
-   background-image:;
+   background-image: url("");
    background-size: cover;
    background-clip: text;
    color: transparent;
