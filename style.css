@@ -26,6 +26,7 @@ html {
   background-clip: text;
   color: white;
   opacity: 1;
+  position: absolute;
   top: 35vh;
   right: 100vw;
   animation-name: moveleft;
