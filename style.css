@@ -18,13 +18,13 @@ html {
   0% {transform:translateX(0);}
   100% {transform:translateX(50vw);}
 }
-@keyframes specialmoveleft {
-  0% {transform:translateX(0);}
-  100% {transform:translateX(100vw);}
+
 }
 .object1 {
-  background-image: url(https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?fit=476%2C280&ssl=1);
-  position: absolute;
+  background-image:;
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
   top: 35vh;
   right: 100vw;
   animation-name: moveleft;
@@ -32,7 +32,10 @@ html {
   animation-fill-mode: forwards;
 }
 .object2 {
-    background-image: url(https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?fit=476%2C280&ssl=1);
+   background-image:;
+   background-size: cover;
+   background-clip: text;
+   color: transparent;
    position: absolute;
    top: 35vh;
    left: 100vw;
@@ -41,19 +44,6 @@ html {
    animation-fill-mode: forwards;
   
 }
-.object3 {
-   position: absolute;
-   top: 40vh;
-   right: 100vw;
-   animation-name: specialmoveleft;
-   animation-duration: 1.5s;
-   animation-fill-mode: forwards;
-  
-}
-.object4 {
-   position: absolute;
-   top: 40vh;
-   left: 100vw;
-  
-}
+
+
   
