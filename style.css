@@ -25,6 +25,7 @@ html {
   background-size: cover;
   background-clip: text;
   color: white;
+  opacity: 1;
   top: 35vh;
   right: 100vw;
   animation-name: moveleft;
@@ -36,6 +37,7 @@ html {
    background-size: cover;
    background-clip: text;
    color: white;
+   opacity: 1;
    position: absolute;
    top: 35vh;
    left: 100vw;
