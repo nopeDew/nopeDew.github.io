@@ -24,7 +24,7 @@ html {
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
-  background-color: transparent;
+  color: transparent;
   position: absolute;
   top: 35vh;
   right: 100vw;
@@ -37,7 +37,7 @@ html {
    background-size: cover;
    background-clip: text;
    -webkit-background-clip: text;
-   background-color: transparent;
+   color: transparent;
    position: absolute;
    top: 35vh;
    left: 100vw;
