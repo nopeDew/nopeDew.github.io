@@ -4,7 +4,7 @@
   font-family: 'Silkscreen', sans-serif;
 }
 html {
-  background-image: url(https://wallpapercave.com/wp/wp2787656.jpg);
+  background-image: url("https://wallpapercave.com/wp/wp2787656.jpg");
   width: 100%;
   heigh: 100%;
   font-size: 64px;
