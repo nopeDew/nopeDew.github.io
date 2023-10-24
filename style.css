@@ -36,6 +36,7 @@ html {
    background-image: url("https://www.publicdomainpictures.net/pictures/200000/velka/plain-white-background-1480544970glP.jpg");
    background-size: cover;
    background-clip: text;
+   -webkit-background-clip: text;
    background-color: transparent;
    position: absolute;
    top: 35vh;
