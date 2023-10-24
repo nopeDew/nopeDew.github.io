@@ -23,8 +23,7 @@ html {
   background-image: url("");
   background-size: cover;
   background-clip: text;
-  color: white;
-  opacity: 1;
+  background-color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 35vh;
   right: 100vw;
@@ -36,8 +35,7 @@ html {
    background-image: url("");
    background-size: cover;
    background-clip: text;
-   color: white;
-   opacity: 1;
+   background-color: rgba(0, 0, 0, 1);
    position: absolute;
    top: 35vh;
    left: 100vw;
