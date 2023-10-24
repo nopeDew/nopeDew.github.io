@@ -23,7 +23,7 @@ html {
   background-image: url("https://www.publicdomainpictures.net/pictures/200000/velka/plain-white-background-1480544970glP.jpg");
   background-size: cover;
   background-clip: text;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: transparent;
   position: absolute;
   top: 35vh;
   right: 100vw;
@@ -35,7 +35,7 @@ html {
    background-image: url("https://www.publicdomainpictures.net/pictures/200000/velka/plain-white-background-1480544970glP.jpg");
    background-size: cover;
    background-clip: text;
-   background-color: rgba(0, 0, 0, 1);
+   background-color: transparent;
    position: absolute;
    top: 35vh;
    left: 100vw;
