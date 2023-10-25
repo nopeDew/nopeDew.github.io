@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 * {
-  color: white;
+  color: transparent;
   font-family: 'Silkscreen', sans-serif;
 }
 html {
@@ -24,7 +24,6 @@ html {
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent;
   text-align: center;
   position: absolute;
   top: 35vh;
@@ -38,7 +37,6 @@ html {
    background-size: cover;
    background-clip: text;
    -webkit-background-clip: text;
-   color: transparent;
    text-align: center;
    position: absolute;
    top: 35vh;
