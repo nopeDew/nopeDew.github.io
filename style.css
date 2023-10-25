@@ -22,6 +22,16 @@ body {
   0% {transform:translateX(0);}
   100% {transform:translateX(50vw);}
 }
+footer1 {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+svg{
+  fill:#FFFFFF;
+  width:30px;
+  height:30px
+}
 
 .object1 {
   background-image: url("https://www.publicdomainpictures.net/pictures/200000/velka/plain-white-background-1480544970glP.jpg");
