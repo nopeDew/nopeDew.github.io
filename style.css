@@ -65,8 +65,8 @@ svg{fill:#FFFFFF;width:30px;height:30px}
 }
 
 .button {
-  border: none;
   color: black;
+  border: none;
   padding: 4px;
   top: 5vh;
   left: 5vw;
