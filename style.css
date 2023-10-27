@@ -44,6 +44,7 @@ svg{fill:#FFFFFF;width:30px;height:30px}
 
 
 .object1 {
+  font-family: 'Silkscreen', sans-serif;
   background-image: url("https://www.publicdomainpictures.net/pictures/200000/velka/plain-white-background-1480544970glP.jpg");
   background-size: cover;
   background-clip: text !important;
@@ -57,6 +58,7 @@ svg{fill:#FFFFFF;width:30px;height:30px}
   animation-fill-mode: forwards;
 }
 .object2 {
+  font-family: 'Silkscreen', sans-serif;
   background-image: url("https://www.publicdomainpictures.net/pictures/200000/velka/plain-white-background-1480544970glP.jpg");
   background-size: cover; 
   background-clip: text !important;
