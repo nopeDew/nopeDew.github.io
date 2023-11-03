@@ -31,6 +31,7 @@ svg{fill:#FFFFFF;width:30px;height:30px}
   top: 35vh;
   right: 100vw;
   animation-name: moveleft, explode;
+  animation-delay: 0s, 1s;
   animation-duration: 1s, 0.75s; 
   height: 5vh;
   width: 5vw;
@@ -45,6 +46,7 @@ svg{fill:#FFFFFF;width:30px;height:30px}
   top: 35vh;
   left: 100vw;
   animation-name: moveright, explode;
+  animation-delay: 0s, 1s;
   animation-duration: 1s, 0.75s;
   animation-fill-mode: forwards;
 }
