@@ -16,7 +16,7 @@ body {
   background-color: black; 
 }
 .button {
-  background-color: #transparent; 
+  background-color: transparent; 
   border: none;
   color: black;
   padding: 8px 10px;
