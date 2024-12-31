@@ -16,9 +16,6 @@ body {
   background-color: black; 
 }
 .button {
-  background-color: FFFFFF; 
-  opacity: 0.01;
-  border: none;
   color: black;
   padding: 8px 10px;
   text-align: center;
