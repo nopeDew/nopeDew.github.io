@@ -15,6 +15,26 @@ body {
   background-size: cover !important; 
   background-color: black; 
 }
+.button {
+  background-color: #000000; 
+  border: none;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #FFFFFF; 
+  color: white;
+  border: 2px solid #000000; 
+}
 
 @keyframes moveright {
   0% {transform:translateX(0);}
