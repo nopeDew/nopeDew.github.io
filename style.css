@@ -43,8 +43,8 @@ body {
 
 footer1 {
   position: absolute;
-  top: 0%;
-  right: 10%;
+  top: 80vh;
+  right: 90vw;
   font-size: 24px;
 }
 
