@@ -11,6 +11,25 @@ html {
 p {
   text-align: center
 }
+    .button {
+      background-color: transparent; 
+      color: #fff; 
+      border: 2px solid #fff; 
+      padding: 10px 20px; 
+      font-size: 16px;
+      border-radius: 5px; 
+      cursor: pointer; 
+      transition: all 0.3s ease;
+      top: 40vh
+      right: 50vw
+    }
+
+    .button:hover {
+      background-color: rgba(255, 255, 255, 0.2); 
+      color: #000; 
+      border-color: #000;
+    }
+
 body {
   background-color: white; 
 }
