@@ -1,30 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Redaction+35');
+
 * {
   font-family: 'Redaction 35', serif;
   color: white;
+  box-sizing: border-box;
 }
-html {
+
+html, body {
   width: 100%;
   height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
   font-size: 64px;
 }
 
 body {
-  background-size: cover !important; 
-  background-color: black; 
+  background-size: cover !important;
+  background-color: black;
 }
 
 hr {
   color: white !important;
 }
 
-svg{fill:#FFFFFF;width:30px;height:30px}
+svg {
+  fill: #FFFFFF;
+  width: 30px;
+  height: 30px;
+}
 
-.object1 {
-  text-align: center;
-  position: absolute;
+.container {
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.object1 {
+  text-align: center;
+  white-space: nowrap;
+}
+
+.emoji {
+  display: block;
+  font-size: 30px;
+  margin-top: 12px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.emoji:hover {
+  transform: scale(1.2);
+}
