@@ -50,7 +50,7 @@ svg {
 .emoji {
   display: block;
   font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
-  font-size: 64px;
+  font-size: 48px;
   line-height: 1;
   margin-top: 12px;
   text-decoration: none;
